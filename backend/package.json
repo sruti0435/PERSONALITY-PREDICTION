@@ -1,5 +1,5 @@
 {
-  "name": "Axion-AI",
+  "name": "LocalHost-AI",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -8,8 +8,8 @@
     "start": "nodemon src/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Anupam",
-  "license": "MIT",
+  "author": "LocalHost",
+  "license": "Calfus-Hackathon",
   "dependencies": {
     "@distube/ytdl-core": "^4.16.6",
     "@google/generative-ai": "^0.2.1",

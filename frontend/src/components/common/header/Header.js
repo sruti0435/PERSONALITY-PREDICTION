@@ -47,7 +47,7 @@ const Header = () => {
             <div onClick={()=>{navigate("/")}} className="flex items-center cursor-pointer">
                 <Brain className="h-8 w-8 text-cyan-400" />
                 <span className="ml-2 text-xl font-bold bg-gradient-to-r from-cyan-400 to-indigo-500 bg-clip-text text-transparent">
-                Hash-Hacker-AI
+                LocalHost-AI
                 </span>
             </div>
 

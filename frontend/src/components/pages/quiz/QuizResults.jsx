@@ -72,17 +72,16 @@ const QuizResults = () => {
             {/* Header */}
             
             {/* New Assessment Banner */}
-<div className="bg-slate-800 border border-cyan-600 rounded-xl p-5 mb-6 flex items-center justify-between shadow-lg">
-  <div className="text-slate-100 text-lg font-medium">
-    We Created a new Assessment based on your performance
-  </div>
-  <button
-    onClick={() => navigate(`/attemptquiz/new/${assessmentId}`)}
-    className="bg-cyan-600 hover:bg-cyan-700 text-white px-4 py-2 rounded-lg transition-all duration-200"
-  >
-    Click to Give It
-  </button>
-</div>
+        <div className="bg-slate-800 border border-cyan-600 rounded-xl p-5 mb-6 flex items-center justify-between shadow-lg">
+            <div className="text-slate-100 text-lg font-medium">
+                We Created a new Assessment based on your performance
+            </div>
+        <button
+        onClick={() => navigate(`/attemptquiz/new/${assessmentId}`)}
+        className="bg-cyan-600 hover:bg-cyan-700 text-white px-4 py-2 rounded-lg transition-all duration-200">
+            Click to Give It
+        </button>
+        </div>
 
             <div className="bg-gradient-to-r from-slate-800 to-slate-900 p-6 border-b border-slate-700 relative overflow-hidden">
                 <div className="absolute inset-0 bg-gradient-to-r from-cyan-500/10 to-indigo-600/10 opacity-50"></div>
@@ -101,33 +100,6 @@ const QuizResults = () => {
             <div className="p-6 md:p-8">
                 {/* Score Summary */}
                 <div className="mb-10 bg-slate-800/50 rounded-xl p-6 border border-slate-700">
-
-                {/* New Assessment Banner */}
-<div className="bg-slate-800 border border-cyan-600 rounded-xl p-5 mb-6 flex items-center justify-between shadow-lg">
-  <div className="text-slate-100 text-lg font-medium">
-    We Created a new Assessment based on your performance
-  </div>
-  <button
-    onClick={() => navigate(`/attemptquiz/new/${assessmentId}`)}
-    className="bg-cyan-600 hover:bg-cyan-700 text-white px-4 py-2 rounded-lg transition-all duration-200"
-  >
-    Click to Give It
-  </button>
-</div>
-
-                {/* New Assessment Banner */}
-<div className="bg-slate-800 border border-cyan-600 rounded-xl p-5 mb-6 flex items-center justify-between shadow-lg">
-  <div className="text-slate-100 text-lg font-medium">
-    We Created a new Assessment based on your performance
-  </div>
-  <button
-    onClick={() => navigate(`/attemptquiz/new/${assessmentId}`)}
-    className="bg-cyan-600 hover:bg-cyan-700 text-white px-4 py-2 rounded-lg transition-all duration-200"
-  >
-    Click to Give It
-  </button>
-</div>
-
 
                 <div className="flex flex-col md:flex-row items-center justify-between gap-6">
                     <div className="text-center md:text-left">

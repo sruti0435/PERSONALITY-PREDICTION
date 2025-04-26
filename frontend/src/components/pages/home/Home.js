@@ -5,6 +5,7 @@ import HowItWorkSection from "./components/HowItWorkSection";
 import FeatureSection from "./components/FeatureSection";
 import AudienceSection from "./components/AudienceSection";
 import RewardsSection from "./components/RewardsSection"
+import Chatbot from "../chatbot/Chatbot";
 
 
 const Home = () => {
@@ -16,6 +17,7 @@ const Home = () => {
             <FeatureSection />
             <AudienceSection />
             <RewardsSection />
+            <Chatbot/>
         </div>
     );
 };
